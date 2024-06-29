@@ -1,0 +1,27 @@
+*Unwraping: 
+  https://www.hackingwithswift.com/sixty/10/4/force-unwrapping
+
+*TheGuard: 
+  guard name.characters.count > 0 else {
+    throw InputError.NameIsEmpty
+  }
+  //codigo
+
+  Permite verificar como un if 
+
+
+
+
+
+*Interpolación en swift: 
+  var name = "Tim McGraw"
+  "Your name is \(name)"
+  ver: https://www.hackingwithswift.com/read/es/0/5/interpolacion-de-cadenas-de-caracteres
+
+*Typecasting. 
+  El casteo en swift no es posible como en c++, ya que no transforma el dato en memoria, los datos primativos en Swift son una estructura a diferencia de C++. 
+  Primitivos son no referencia
+  Estructuras (tipos primitivos) tienen protocolos y estructuras incorporadas
+  Castear = inicializar una nueva instancia de un valor a una nueva instancia
+  Opcional: Ver implementacion de opcional
+
